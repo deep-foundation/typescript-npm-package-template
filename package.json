@@ -8,7 +8,9 @@
     "url": "<REPOSITORY_URL>"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "fse remove dist && tsc",
+    "npm-pull": "npm-pull",
+    "npm-release": "npm-release"
   },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -20,6 +22,7 @@
     "@deep-foundation/core": "^0.0.2"
   },
   "devDependencies": {
+    "@atao60/fse-cli": "^0.1.7",
     "fs-extra": "^11.1.1",
     "@types/fs-extra": "^11.0.1",
     "@deep-foundation/npm-release": "~0.0.16",
