@@ -5,7 +5,7 @@
 # Automatically
 
 ```bash
-npm init @deep-foundation/create-typescript-npm-package@latest --package-name="<PACKAGE_NAME>" --directory="<DIRECTORY>" --description="<DESCRIPTION>" --repository-url="<REPOSITORY_URL>"
+npx @deep-foundation/create-typescript-npm-package@latest --package-name="<PACKAGE_NAME>" --directory="<DIRECTORY>" --description="<DESCRIPTION>" --repository-url="<REPOSITORY_URL>"
 ```
 Note: change placeholders (`<>`) to your values
 
