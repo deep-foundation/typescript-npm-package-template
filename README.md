@@ -5,9 +5,9 @@
 # Automatically
 
 ```bash
-npm init @freephoenix888/create-typescript-npm-package --package-name="<PACKAGE_NAME>" --description="" --repository-url=""
+npm init @deep-foundation/create-typescript-npm-package@latest --package-name="<PACKAGE_NAME>" --directory="<DIRECTORY>" --description="<DESCRIPTION>" --repository-url="<REPOSITORY_URL>"
 ```
-Note: change <> to your values
+Note: change placeholders (`<>`) to your values
 
 # Manually
 - Replace `<PACKAGE_NAME>` in files to your package name
