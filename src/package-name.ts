@@ -1,1 +1,1 @@
-export const MY_PACKAGE_NAME = "<PACKAGE_NAME>";
+export const PACKAGE_NAME = "<PACKAGE_NAME>";
