@@ -30,6 +30,6 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@deep-foundation/deeplinks": "~0.0.164"
+    "@deep-foundation/deeplinks": "~0.0.198"
   }
 }
