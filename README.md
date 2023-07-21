@@ -6,10 +6,7 @@
 
 ### Automatically
 
-```bash
-npx @deep-foundation/create-typescript-npm-package@latest --package-name="<PACKAGE_NAME>" --directory="<DIRECTORY>" --description="<DESCRIPTION>" --repository-url="<REPOSITORY_URL>"
-```
-Note: change placeholders (`<>`) to your values
+Use [@deep-foundation/create-typescript-npm-package](https://www.npmjs.com/package/@deep-foundation/create-typescript-npm-package)
 
 ### Manually
 - Replace `<PACKAGE_NAME>` in files to your package name
