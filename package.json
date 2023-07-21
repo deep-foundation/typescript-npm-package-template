@@ -2,7 +2,7 @@
   "name": "<PACKAGE_NAME>",
   "keywords": [],
   "version": "0.0.2",
-  "description": "",
+  "description": "<DESCRIPTION>",
   "repository": {
     "type": "git",
     "url": "<REPOSITORY_URL>"
