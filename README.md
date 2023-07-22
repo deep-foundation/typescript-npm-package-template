@@ -6,7 +6,7 @@
 
 ### Automatically
 
-Use [@deep-foundation/create-typescript-npm-package](https://www.npmjs.com/package/@deep-foundation/create-typescript-npm-package)
+Use [`@deep-foundation/create-typescript-npm-package`](https://www.npmjs.com/package/@deep-foundation/create-typescript-npm-package)
 
 ### Manually
 - Replace `<PACKAGE_NAME>` in files to your package name
