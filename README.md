@@ -2,6 +2,8 @@
 [![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#<REPOSITORY_URL>) 
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label&color=purple)](https://discord.gg/deep-foundation)
 
+npm package with typescript support that will help you to manage your deep package
+
 ## Installation and setup
 
 ### Automatically
