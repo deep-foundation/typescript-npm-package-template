@@ -8,13 +8,13 @@
     "url": "<REPOSITORY_URL>"
   },
   "scripts": {
-    "build": "tsc",
-    "clean-build": "fse remove dist && npm run build",
+    "library:build:clean": "fse remove dist && npm run library:build:dirty",
+    "library:build:dirty": "ts-node --esm ./automation/library/build.ts",
     "npm-pull": "npm-pull",
     "npm-release": "npm-release",
-    "npm-install": "npm-install",
-    "npm-sync-dependencies": "npm-sync-dependencies",
-    "generate-package-class": "generate-package-class"
+    "library:build:generate-package-class": "generate-package-class",
+    "documentation:generate": "ts-node --esm ./automation/documentation/generate.ts",
+    "library:documentation:generate": "typedoc ./src/main.ts"
   },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
